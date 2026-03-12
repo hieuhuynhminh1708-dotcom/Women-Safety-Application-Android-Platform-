@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="14dp"
+    android:background="#FFFFFF"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginBottom="10dp"
+    android:elevation="3dp"
+    android:clipToOutline="true"
+    android:backgroundTintMode="src_in">
+
+    <!-- Tên người dùng -->
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pham Cong Hung"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hungpc22@uef.edu.vn"
+        android:textSize="14sp"
+        android:textColor="#616161"
+        android:layout_marginBottom="2dp" />
+
+    <!-- Số điện thoại -->
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0703071431"
+        android:textSize="14sp"
+        android:textColor="#616161"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Vai trò -->
+    <TextView
+        android:id="@+id/tvRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        android:textColor="#2962FF"
+        android:background="#E3F2FD"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="2dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="2dp"
+        android:layout_gravity="start"
+        android:gravity="center_vertical"
+        android:backgroundTintMode="src_in" />
+
+</LinearLayout>

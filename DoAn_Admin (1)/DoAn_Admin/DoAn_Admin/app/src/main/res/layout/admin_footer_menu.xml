@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/footerAdminMenu"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:elevation="10dp"
+    android:paddingVertical="10dp"
+    android:paddingHorizontal="8dp"
+    android:layout_gravity="bottom"
+    android:clipToPadding="false">
+
+    <!-- Dashboard -->
+    <LinearLayout
+        android:id="@+id/btnHome"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/iconHome"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_home"
+            app:tint="@color/menu_inactive" />
+        <TextView
+            android:id="@+id/txtHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trang chủ"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/menu_inactive"
+            android:paddingTop="6dp" />
+    </LinearLayout>
+
+    <!-- SOS -->
+    <LinearLayout
+        android:id="@+id/btnSOS"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/iconSOS"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_sos"
+            app:tint="@color/menu_inactive" />
+        <TextView
+            android:id="@+id/txtSOS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SOS"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/menu_inactive"
+            android:paddingTop="6dp" />
+    </LinearLayout>
+
+    <!-- Người dùng -->
+    <LinearLayout
+        android:id="@+id/btnUsers"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/iconUsers"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_user"
+            app:tint="@color/menu_inactive" />
+        <TextView
+            android:id="@+id/txtUsers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Người dùng"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/menu_inactive"
+            android:paddingTop="6dp" />
+    </LinearLayout>
+
+    <!-- Cài đặt -->
+    <LinearLayout
+        android:id="@+id/btnSettings"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/iconSettings"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_setting"
+            app:tint="@color/menu_inactive" />
+        <TextView
+            android:id="@+id/txtSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cài đặt"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/menu_inactive"
+            android:paddingTop="6dp" />
+    </LinearLayout>
+
+</LinearLayout>

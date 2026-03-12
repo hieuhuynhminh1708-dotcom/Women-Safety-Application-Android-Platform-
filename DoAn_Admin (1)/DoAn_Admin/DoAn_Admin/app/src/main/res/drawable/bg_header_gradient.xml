@@ -1,0 +1,13 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- res/drawable/header_gradient.xml -->
+    <gradient xmlns:android="http://schemas.android.com/apk/res/android"
+        android:angle="90"
+        android:startColor="#FF5E62"
+        android:endColor="#FF9966"
+        android:type="linear" />
+
+
+    />
+</shape>

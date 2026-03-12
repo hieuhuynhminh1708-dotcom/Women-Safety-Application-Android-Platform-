@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Giao diện sáng: icon status bar màu đen -->
+    <style name="Theme.DoAn_Admin" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Nền thanh trạng thái -->
+        <item name="android:statusBarColor">@android:color/white</item>
+
+        <!-- Hiển thị biểu tượng pin, Wi-Fi, giờ màu đen -->
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Nền tổng thể của Activity -->
+        <item name="android:colorBackground">@color/white</item>
+
+        <!-- Màu chủ đạo nếu cần -->
+        <item name="colorPrimary">@color/purple_700</item>
+    </style>
+
+</resources>

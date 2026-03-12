@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "101915348193",
+    "firebase_url": "https://sos-alert-cc754-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sos-alert-cc754",
+    "storage_bucket": "sos-alert-cc754.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101915348193:android:baafd6c39f00c7d29bbba0",
+        "android_client_info": {
+          "package_name": "com.example.doan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrSXG9dOmpHLJzAGmGWJpHdM8rS8uDJdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101915348193:android:25f798cf5b5d62429bbba0",
+        "android_client_info": {
+          "package_name": "com.example.doan_admin1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrSXG9dOmpHLJzAGmGWJpHdM8rS8uDJdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
